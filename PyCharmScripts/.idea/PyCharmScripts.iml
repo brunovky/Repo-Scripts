@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="google-appengine-python" name="Google App Engine (Python)">
+      <configuration>
+        <option name="rootFolder" value="C:\Users\Bruno\PycharmProjects\PyCharmScripts" />
+        <option name="sdkFolder" value="C:\Program Files (x86)\Google\google_appengine" />
+        <option name="templatesFolder" value="" />
+        <option name="email" value="bruno.vky@gmail.com" />
+        <option name="gp" value="dfdcdfcfdfc4dfdedfc5dfc4dfc5dfc6dfc3dfdedfc5dfd8dfcbdfc6" />
+        <option name="oauth2" value="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Google App Engine SDK" level="project" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="C:\Users\Bruno\PycharmProjects\PyCharmScripts\templates" />
+      </list>
+    </option>
+  </component>
+</module>
+
