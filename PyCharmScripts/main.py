@@ -16,10 +16,27 @@
 #
 import webapp2
 
-class MainHandler(webapp2.RequestHandler):
+class CalculadoraHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Hello world!')
+        num1 = int(self.request.get('num1'))
+        num2 = int(self.request.get('num2'))
+        op = int(self.request.get('op'))
+        if op < 1 or op > 4:
+            self.response.write('Operacao invalida')
+        elif op == 1:
+            self.response.write('Resultado: %s' %(num1 + num2))
+        elif op == 2:
+            self.response.write('Resultado: %s' %(num1 - num2))
+        elif op == 3:
+            self.response.write('Resultado: %s' %(num1 * num2))
+        elif op == 4:
+            self.response.write('Resultado: %s' %(num1 / num2))
+
+class RedirectHandler(webapp2.RedirectHandler):
+    def get(self):
+        self.redirect('/resp')
 
 app = webapp2.WSGIApplication([
-    ('/', MainHandler)
+    ('/calc', CalculadoraHandler),
+    ('/redirect', RedirectHandler)
 ], debug=True)
