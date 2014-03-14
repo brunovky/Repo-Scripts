@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, unicode_literals
-from web import my_form
-from tekton import router
-
+from web.rest.rest import Usuario
 
 def index(_write_tmpl):
-    url = router.to_path(my_form)
-    _write_tmpl('templates/index.html', {'form_url': url})
-
+    dict = {}
+    query = Usuario.query(Usuario.logged == True)
+    if query.fetch():
+        usuario = query.get()
+        dict = {'logged': True,
+                'username': usuario.login}
+    else:
+        dict = {'logged': False}
+    _write_tmpl('/templates/index.html', dict)
 
 def params(_resp, *args, **kwargs):
     _resp.write(args)

@@ -18,3 +18,15 @@
 .hand-cursor {
     cursor: pointer;
 }
+
+.btn-entrar {
+    margin-left: 50px;
+}
+
+.center-column {
+    margin-left: 30%;
+    margin-top: 15%;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}

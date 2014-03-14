@@ -46,6 +46,14 @@
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Pesquise seu produto" />
 						</div> <button type="submit" class="btn btn-default">Pesquisar</button>
+                        {% if logged %}
+                        <div class="form-group btn-entrar hand-cursor">
+                            <a href="#">{{ username }}</a>
+                            <span class="caret"></span>
+                        </div>
+                        {% else %}
+                        <a href="/rest/crud/login" class="btn btn-primary btn-entrar">Entrar</a>
+                        {% endif %}
 					</form>
 				</div>
 
