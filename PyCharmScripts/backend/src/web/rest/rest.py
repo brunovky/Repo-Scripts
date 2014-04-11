@@ -4,9 +4,15 @@ import json
 from google.appengine.ext import ndb
 
 class Usuario(ndb.Model):
-    login = ndb.StringProperty()
-    pwd = ndb.StringProperty()
-    logged = ndb.BooleanProperty()
+    nome = ndb.StringProperty()
+    email = ndb.StringProperty()
+    id = ndb.StringProperty()
+
+class Produto(ndb.Model):
+    nome = ndb.StringProperty()
+    descricao = ndb.StringProperty()
+    preco = ndb.FloatProperty()
+    imagem = ndb.StringProperty()
 
 def logar(login, pwd):
     query = Usuario.query(Usuario.login == login, Usuario.pwd == pwd)
