@@ -9,11 +9,12 @@ def execute(next_process, handler, dependencies, **kwargs):
     if user:
         logged_user = Usuario.query(Usuario.id == user.user_id()).get()
         if not logged_user:
-            logged_user = Usuario(nome=user.nickname(), email=user.email(), id=user.user_id())
+            logged_user = Usuario(id=user.user_id(), nome=user.nickname(), email=user.email(), admin=False)
             logged_user.put()
         dependencies['logged'] = True
         dependencies['username'] = logged_user.nome
         dependencies['_logout_url'] = users.create_logout_url('/')
+        dependencies['admin'] = logged_user.admin
     else:
         dependencies['logged'] = None
         dependencies['_login_url'] = users.create_login_url('/')

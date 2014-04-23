@@ -8,7 +8,8 @@ def execute(next_process, handler, dependencies, **kwargs):
         dct = {'logged': dependencies.get('logged'),
                'username': dependencies.get('username'),
                '_login_url': dependencies.get('_login_url'),
-               '_logout_url': dependencies.get('_logout_url')}
+               '_logout_url': dependencies.get('_logout_url'),
+               'admin': dependencies.get('admin')}
         dct.update(values or {})
         return handler.response.write(tmpl.render(template_name, dct))
 

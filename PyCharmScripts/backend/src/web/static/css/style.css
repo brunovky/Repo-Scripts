@@ -39,38 +39,11 @@
     box-shadow: 0 0 5px #888;
 }
 
-.new-user-column {
-    margin-top: 5% !important;
-}
-
-.new-user {
-    width: 100%;
+.th-product {
     text-align: center;
 }
 
-.terms {
-    width: 633px;
-    height: 150px;
-}
-
-.shop-item {
-    cursor: pointer;
-    width: 225px;
-    height: 225px;
-    padding: 10px;
-    position: absolute;
-}
-
-.img-shop-item {
-    margin-left: 20%;
-}
-
-.label-shop-item {
-    margin-left: 34%;
-}
-
-.shop-item:hover {
-    -moz-box-shadow: 0 0 5px #888;
-    -webkit-box-shadow: 0 0 5px#888;
-    box-shadow: 0 0 5px #888;
+.td-product {
+    text-align: center;
+    vertical-align: inherit !important;
 }
