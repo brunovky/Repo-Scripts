@@ -1,8 +1,14 @@
 {% extends 'templates/header.html' %}
 
+{% block head %}
+        {{ super() }}
+        <script type="text/javascript" src="/static/js/angular.min.js"></script>
+        <script type="text/javascript" src="/static/js/scripts.js"></script>
+{% endblock %}
+
 {% block main %}
 
-<div class="panel panel-default">
+<div class="panel panel-default" ng-app="app" ng-controller="appController">
     <table class="table table-hover">
         <thead>
         <tr>
@@ -12,28 +18,26 @@
         </tr>
         </thead>
         <tbody>
-        {% for produto in produtos %}
-        <div class="modal fade" id="modal-container-{{ loop.index }}" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title" id="myModalLabel">
-                            {{ produto.nome }}
-                        </h4>
-                    </div>
-                    <div class="modal-body">
-                        <img src="/static/img/{{ produto.imagem }}.png" width="512" height="512" />
+            <tr ng-repeat="produto in produtos">
+                <td class="td-product"><img ng-src="/static/img/{_ produto.imagem _}.png" width="64" height="64" ng-click="abrirModalProduto()" class="hand-cursor" /></td>
+                <td class="td-product">{_ produto.nome _}</td>
+                <td class="td-product">R$ {_ produto.preco _}</td>
+                <div class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                    {_ produto.nome _}
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <img ng-src="/static/img/{_ produto.imagem _}.png" width="512" height="512" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <tr>
-            <td class="td-product"><img src="/static/img/{{ produto.imagem }}.png" width="64" height="64" onclick="$('#modal-container-{{ loop.index }}').modal()" class="hand-cursor" /></td>
-            <td class="td-product"><label>{{ produto.nome }}</label></td>
-            <td class="td-product"><label>R$ {{ produto.preco }}</label></td>
-        </tr>
-        {% endfor %}
+            </tr>
         </tbody>
     </table>
 </div>

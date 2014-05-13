@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, unicode_literals
 from web.rest.rest import Produto
+import json
 
-def vitrine(_write_tmpl, pesquisa):
-    produtos = Produto.query(Produto.nome >= pesquisa).order(Produto.nome).fetch()
-    dict = {'produtos': produtos}
-    _write_tmpl('/templates/shop.html', dict)
+def vitrine(_write_tmpl):
+    _write_tmpl('/templates/shop.html')
+
+def listar_produtos(_resp):
+    produtos = Produto.query().order(Produto.nome).fetch()
+    dict = [{'nome': p.nome, 'imagem': p.imagem, 'preco': p.preco} for p in produtos]
+    _resp.write(json.dumps(dict))
 
 def descricao(_write_tmpl, produto):
     produtoProcurado = Produto.query().fetch()
