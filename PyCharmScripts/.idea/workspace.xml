@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyCharmScripts$PyCharmScripts.coverage" NAME="PyCharmScripts Coverage Results" MODIFIED="1399938624938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/PyCharmScripts$PyCharmScripts.coverage" NAME="PyCharmScripts Coverage Results" MODIFIED="1399982334622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,10 +29,17 @@
       <file leaf-file-name="crud.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/web/rest/crud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="e#24#80#0" expanded="true" />
-              </folding>
+            <state line="33" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rest.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/web/rest/rest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="459">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,34 +47,25 @@
       <file leaf-file-name="add_product.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/web/templates/add_product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.0" vertical-offset="51" max-vertical-offset="697">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shop.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/web/templates/shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="17" selection-start="1828" selection-end="1828" vertical-scroll-proportion="0.91392404" vertical-offset="302" max-vertical-offset="850">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/web/templates/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="124" selection-start="2783" selection-end="2783" vertical-scroll-proportion="-10.615385" vertical-offset="625" max-vertical-offset="1326">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/src/web/static/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="952">
+            <state line="66" column="2" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.58536583" vertical-offset="906" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -91,23 +89,23 @@
         <option value="$PROJECT_DIR$/backend/src/web/rest/model.py" />
         <option value="$PROJECT_DIR$/backend/src/tmpl.py" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/new_user.html" />
-        <option value="$PROJECT_DIR$/backend/src/web/templates/login.html" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/index.html" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/description.html" />
         <option value="$PROJECT_DIR$/backend/src/settings.py" />
         <option value="$PROJECT_DIR$/backend/src/web/home.py" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/error.html" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/admin.html" />
-        <option value="$PROJECT_DIR$/backend/src/web/rest/rest.py" />
         <option value="$PROJECT_DIR$/backend/src/tmpl_middleware.py" />
         <option value="$PROJECT_DIR$/backend/src/web/user/user_middleware.py" />
         <option value="$PROJECT_DIR$/backend/src/web/static/css/style.css" />
         <option value="$PROJECT_DIR$/backend/src/web/static/js/angular.min.js" />
+        <option value="$PROJECT_DIR$/backend/src/web/templates/login.html" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/add_product.html" />
-        <option value="$PROJECT_DIR$/backend/src/web/rest/crud.py" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/header.html" />
-        <option value="$PROJECT_DIR$/backend/src/web/static/js/scripts.js" />
+        <option value="$PROJECT_DIR$/backend/src/web/rest/rest.py" />
+        <option value="$PROJECT_DIR$/backend/src/web/rest/crud.py" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/shop.html" />
+        <option value="$PROJECT_DIR$/backend/src/web/static/js/scripts.js" />
       </list>
     </option>
   </component>
@@ -143,7 +141,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,6 +257,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,6 +330,23 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharmScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="127.0.0.1" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,23 +369,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharmScripts" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="host" value="127.0.0.1" />
-      <option name="browserUrl" value="" />
-      <option name="additionalOptions" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,9 +384,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -412,6 +407,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -514,19 +512,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28776434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39602447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29229608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39602447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2996795" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29663607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29663607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -544,7 +542,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -623,16 +621,6 @@
     <entry file="file://$PROJECT_DIR$/backend/src/web/static/css/apagar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="39" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/description.html">
@@ -750,11 +738,6 @@
         <state line="11" column="12" selection-start="377" selection-end="377" vertical-scroll-proportion="0.35172415" vertical-offset="0" max-vertical-offset="435" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/rest/rest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="293" selection-end="293" vertical-scroll-proportion="0.35172415" vertical-offset="0" max-vertical-offset="435" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/new_user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="10" selection-start="1562" selection-end="7194" vertical-scroll-proportion="-12.615385" vertical-offset="1355" max-vertical-offset="1836">
@@ -776,51 +759,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Google/google_appengine/google/appengine/ext/ndb/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1337" column="0" selection-start="46200" selection-end="46200" vertical-scroll-proportion="0.33243242" vertical-offset="22334" max-vertical-offset="66045">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/lib/tekton/gae/middleware/router_middleware.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.27642277" vertical-offset="0" max-vertical-offset="369" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/add_product.html">
+    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="697">
+        <state line="32" column="72" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.55949366" vertical-offset="323" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/rest/crud.py">
+    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Google/google_appengine/google/appengine/ext/ndb/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3527" column="4" selection-start="125295" selection-end="125295" vertical-scroll-proportion="0.921659" vertical-offset="59287" max-vertical-offset="66045">
           <folding>
-            <element signature="e#24#80#0" expanded="true" />
+            <marker date="1389275942000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..missing_value..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="124" selection-start="2783" selection-end="2783" vertical-scroll-proportion="-10.615385" vertical-offset="625" max-vertical-offset="1326">
+        <state line="48" column="34" selection-start="2300" selection-end="2314" vertical-scroll-proportion="0.25757575" vertical-offset="731" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/static/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/add_product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="952">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/web/rest/crud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/web/rest/rest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="1828" selection-end="1828" vertical-scroll-proportion="0.91392404" vertical-offset="302" max-vertical-offset="850">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/web/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="2" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.58536583" vertical-offset="906" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>

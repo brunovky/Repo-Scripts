@@ -1,11 +1,5 @@
 {% extends 'templates/header.html' %}
 
-{% block head %}
-        {{ super() }}
-        <script type="text/javascript" src="/static/js/angular.min.js"></script>
-        <script type="text/javascript" src="/static/js/scripts.js"></script>
-{% endblock %}
-
 {% block main %}
 
 <div class="panel panel-default" ng-app="app" ng-controller="appController">
@@ -19,9 +13,18 @@
         </thead>
         <tbody>
             <tr ng-repeat="produto in produtos">
-                <td class="td-product"><img ng-src="/static/img/{_ produto.imagem _}.png" width="64" height="64" ng-click="abrirModalProduto()" class="hand-cursor" /></td>
-                <td class="td-product">{_ produto.nome _}</td>
-                <td class="td-product">R$ {_ produto.preco _}</td>
+                <td class="td-product">
+                    <img ng-src="/static/img/{_ produto.imagem _}.png" ng-hide="produto.editando" width="64" height="64" ng-click="abrirModalProduto()" class="hand-cursor" />
+                    <input type="text" class="form-control" ng-show="produto.editando" ng-model="produto.imagem" />
+                </td>
+                <td class="td-product">
+                    <span ng-hide="produto.editando">{_ produto.nome _}</span>
+                    <input type="text" class="form-control" ng-show="produto.editando" ng-model="produto.nome" />
+                </td>
+                <td class="td-product">
+                    <span ng-hide="produto.editando">R$ {_ produto.preco _}</span>
+                    <input type="text" class="form-control" ng-show="produto.editando" ng-model="produto.preco" />
+                </td>
                 <div class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -37,6 +40,22 @@
                         </div>
                     </div>
                 </div>
+                {% if admin %}
+                <td class="td-product">
+                   <button class="btn btn-warning" title="editar"
+                           ng-click="editarProduto(produto)" ng-hide="produto.editando">
+                       <span class="glyphicon glyphicon-pencil"></span>
+                   </button>
+                    <button class="btn btn-success" title="salvar"
+                                        ng-click="confirmarEdicao(produto)" ng-show="produto.editando">
+                                    <i class="glyphicon glyphicon-floppy-disk"></i>
+                                </button>
+                                <button class="btn btn-danger" title="deletar"
+                                        ng-click="removerElemento(produto, $index)" ng-hide="produto.editando">
+                                    <span class="glyphicon glyphicon-remove"></span>
+                                </button>
+                            </td>
+                {% endif %}
             </tr>
         </tbody>
     </table>

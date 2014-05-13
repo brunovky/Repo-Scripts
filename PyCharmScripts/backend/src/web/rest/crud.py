@@ -8,7 +8,7 @@ def vitrine(_write_tmpl):
 
 def listar_produtos(_resp):
     produtos = Produto.query().order(Produto.nome).fetch()
-    dict = [{'nome': p.nome, 'imagem': p.imagem, 'preco': p.preco} for p in produtos]
+    dict = [{'id': p.id, 'nome': p.nome, 'imagem': p.imagem, 'preco': p.preco} for p in produtos]
     _resp.write(json.dumps(dict))
 
 def descricao(_write_tmpl, produto):
@@ -22,4 +22,16 @@ def cadastrar_produto(_write_tmpl):
 def salvar_produto(_handler, nome, descricao, preco, imagem):
     preco = float(preco)
     produto = Produto(nome=nome, descricao=descricao, preco=preco, imagem=imagem)
+    produto.max_id()
     produto.put()
+
+def editar_produto(id, nome, imagem, preco):
+    produto = Produto.query(Produto.id == id).get()
+    produto.nome = nome
+    produto.imagem = imagem
+    produto.preco = float(preco)
+    produto.put()
+
+def remover_produto(id):
+    produto = Produto.query(Produto.id == id).get()
+    produto.key.delete()
