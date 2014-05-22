@@ -12,7 +12,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyCharmScripts$PyCharmScripts.coverage" NAME="PyCharmScripts Coverage Results" MODIFIED="1399982334622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/PyCharmScripts$Unittests_in_RestTests.coverage" NAME="Unittests in RestTests Coverage Results" MODIFIED="1400802229185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/test" />
+    <SUITE FILE_PATH="coverage/PyCharmScripts$Unittest_RestTests_test_listar_produtos.coverage" NAME="Unittest RestTests.test_listar_produtos Coverage Results" MODIFIED="1400801843769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/test" />
+    <SUITE FILE_PATH="coverage/PyCharmScripts$Unittest_RestTests_test_salvar_produto.coverage" NAME="Unittest RestTests.test_salvar_produto Coverage Results" MODIFIED="1400802036964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/test" />
+    <SUITE FILE_PATH="coverage/PyCharmScripts$PyCharmScripts.coverage" NAME="PyCharmScripts Coverage Results" MODIFIED="1400674990600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/PyCharmScripts$Unittest_HomeTests_test_sucesso.coverage" NAME="Unittest HomeTests.test_sucesso Coverage Results" MODIFIED="1400756002109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -25,53 +29,7 @@
     <favorites_list name="PyCharmScripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="crud.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/web/rest/crud.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rest.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/web/rest/rest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_product.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/web/templates/add_product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shop.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/web/templates/shop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1173">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/web/static/js/scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="2" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.58536583" vertical-offset="906" max-vertical-offset="1275">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -96,7 +54,6 @@
         <option value="$PROJECT_DIR$/backend/src/web/templates/error.html" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/admin.html" />
         <option value="$PROJECT_DIR$/backend/src/tmpl_middleware.py" />
-        <option value="$PROJECT_DIR$/backend/src/web/user/user_middleware.py" />
         <option value="$PROJECT_DIR$/backend/src/web/static/css/style.css" />
         <option value="$PROJECT_DIR$/backend/src/web/static/js/angular.min.js" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/login.html" />
@@ -106,6 +63,11 @@
         <option value="$PROJECT_DIR$/backend/src/web/rest/crud.py" />
         <option value="$PROJECT_DIR$/backend/src/web/templates/shop.html" />
         <option value="$PROJECT_DIR$/backend/src/web/static/js/scripts.js" />
+        <option value="$PROJECT_DIR$/backend/src/web/user/user_middleware.py" />
+        <option value="$PROJECT_DIR$/backend/test/base.py" />
+        <option value="$PROJECT_DIR$/backend/test/testloader.py" />
+        <option value="$PROJECT_DIR$/backend/test/home_tests.py" />
+        <option value="$PROJECT_DIR$/backend/test/rest_tests.py" />
       </list>
     </option>
   </component>
@@ -141,6 +103,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,6 +125,28 @@
               <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharmScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharmScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -221,43 +206,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharmScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharmScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rest" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,12 +233,113 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bruno\Documents\GitHub\Repo-Scripts\PyCharmScripts\backend\src\lib\mock" />
       <recent name="C:\Users\Bruno\Documents\GitHub\Repo-Scripts\PyCharmScripts\backend\src\web\user" />
       <recent name="C:\Users\Bruno\Documents\GitHub\Repo-Scripts\PyCharmScripts\backend\src\web\static\img" />
       <recent name="C:\Users\Bruno\Documents\GitHub\Repo-Scripts\PyCharmScripts" />
     </key>
   </component>
-  <component name="RunManager" selected="App Engine server.PyCharmScripts">
+  <component name="RunManager" selected="Python tests.Unittests in RestTests">
+    <configuration default="false" name="Unittest HomeTests.test_sucesso" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharmScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/test/home_tests.py" />
+      <option name="CLASS_NAME" value="HomeTests" />
+      <option name="METHOD_NAME" value="test_sucesso" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in RestTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharmScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/test/rest_tests.py" />
+      <option name="CLASS_NAME" value="RestTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest RestTests.test_listar_produtos" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharmScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/test/rest_tests.py" />
+      <option name="CLASS_NAME" value="RestTests" />
+      <option name="METHOD_NAME" value="test_listar_produtos" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest RestTests.test_salvar_produto" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharmScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/test/rest_tests.py" />
+      <option name="CLASS_NAME" value="RestTests" />
+      <option name="METHOD_NAME" value="test_salvar_produto" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -473,9 +528,21 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="App Engine server.PyCharmScripts" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest HomeTests.test_sucesso" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in RestTests" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest RestTests.test_listar_produtos" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest RestTests.test_salvar_produto" />
     </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in RestTests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest RestTests.test_salvar_produto" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest RestTests.test_listar_produtos" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest HomeTests.test_sucesso" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -505,15 +572,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29229608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39602447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31042296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39602447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2996795" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29663607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -546,33 +613,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/src/web/static/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/rest/rest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="629" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2771" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="1" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="425" />
@@ -606,16 +646,6 @@
     <entry file="file://$PROJECT_DIR$/backend/src/lib/tekton/gae/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.94585985" vertical-offset="69" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/venv/venv.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/static/css/apagar.css">
@@ -688,11 +718,6 @@
         <state line="68" column="0" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.4896074" vertical-offset="791" max-vertical-offset="1224" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="180" selection-end="180" vertical-scroll-proportion="0.15704387" vertical-offset="0" max-vertical-offset="433" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/tmpl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="32" selection-start="88" selection-end="91" vertical-scroll-proportion="0.08121019" vertical-offset="0" max-vertical-offset="628" />
@@ -733,16 +758,9 @@
         <state line="11" column="47" selection-start="484" selection-end="484" vertical-scroll-proportion="0.41062802" vertical-offset="0" max-vertical-offset="414" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/user/user_middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="377" selection-end="377" vertical-scroll-proportion="0.35172415" vertical-offset="0" max-vertical-offset="435" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/new_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="10" selection-start="1562" selection-end="7194" vertical-scroll-proportion="-12.615385" vertical-offset="1355" max-vertical-offset="1836">
-          <folding />
-        </state>
+        <state line="99" column="10" selection-start="1562" selection-end="7194" vertical-scroll-proportion="-12.615385" vertical-offset="1355" max-vertical-offset="1836" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/static/css/style.css">
@@ -752,11 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/static/js/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="30" selection-start="104443" selection-end="104443" vertical-scroll-proportion="0.8622366" vertical-offset="3021" max-vertical-offset="3655">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="209" column="30" selection-start="104443" selection-end="104443" vertical-scroll-proportion="0.8622366" vertical-offset="3021" max-vertical-offset="3655" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/lib/tekton/gae/middleware/router_middleware.py">
@@ -766,65 +780,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="72" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.55949366" vertical-offset="323" max-vertical-offset="1292">
-          <folding />
-        </state>
+        <state line="32" column="72" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.55949366" vertical-offset="323" max-vertical-offset="1292" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887" />
       </provider>
     </entry>
     <entry file="file://C:/Program Files (x86)/Google/google_appengine/google/appengine/ext/ndb/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3527" column="4" selection-start="125295" selection-end="125295" vertical-scroll-proportion="0.921659" vertical-offset="59287" max-vertical-offset="66045">
-          <folding>
-            <marker date="1389275942000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..missing_value..." />
-          </folding>
-        </state>
+        <state line="3527" column="4" selection-start="125295" selection-end="125295" vertical-scroll-proportion="0.921659" vertical-offset="59287" max-vertical-offset="66045" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="34" selection-start="2300" selection-end="2314" vertical-scroll-proportion="0.25757575" vertical-offset="731" max-vertical-offset="1326">
-          <folding />
-        </state>
+        <state line="48" column="34" selection-start="2300" selection-end="2314" vertical-scroll-proportion="0.25757575" vertical-offset="731" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/web/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/test/testloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="34" selection-start="575" selection-end="575" vertical-scroll-proportion="0.6141215" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/web/user/user_middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="804" selection-end="804" vertical-scroll-proportion="0.45873016" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/templates/add_product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/lib/mock/docs/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/venv/venv.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.10793651" vertical-offset="0" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/test/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="37" selection-start="316" selection-end="316" vertical-scroll-proportion="0.21656051" vertical-offset="0" max-vertical-offset="628">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/rest/crud.py">
+    <entry file="file://$PROJECT_DIR$/backend/src/web/home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="697">
+        <state line="6" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.13535032" vertical-offset="0" max-vertical-offset="628">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/test/home_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="0" selection-end="55" vertical-scroll-proportion="0.027070064" vertical-offset="0" max-vertical-offset="628">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/web/rest/rest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="459">
+        <state line="11" column="6" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/templates/shop.html">
+    <entry file="file://$PROJECT_DIR$/backend/test/rest_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
+        <state line="14" column="20" selection-start="455" selection-end="455" vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="935">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/web/static/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/backend/src/web/rest/crud.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="2" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.58536583" vertical-offset="906" max-vertical-offset="1275">
+        <state line="36" column="24" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.7258065" vertical-offset="263" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
